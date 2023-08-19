@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/0588c5e6ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/port.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend devloper</p>
+                <h1>Hi, I'm<br>
+                    <span> Tarun Verma</span>
+                </h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>
+                        I'm Tarun Verma, a dedicated frontend developer known for my knack in transforming ideas into captivating digital realities. My proficiency in HTML, CSS, and JavaScript allows me to create visually appealing and user-centric interfaces. With a portfolio reflecting my versatility and commitment to UI/UX principles, I excel in collaborating across teams to drive projects forward. I'm not only a coder; I'm a problem solver, continuously exploring new technologies and techniques to enhance user experiences. My passion lies in weaving innovation and functionality into every project I undertake. As I journey through the ever-evolving landscape of web development, I aspire to contribute my skills to forward-thinking teams, create meaningful online solutions, and leave a positive impact on the digital world.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>Designing Website</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Frontend Devloper</span><br>As Intern in CodSoft <br>(from 1-Aug To 30-Aug)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Designing Website</li>
+                            <li><span>2022</span><br>BSC from RMLAU with aggregate 54%</li>
+                            <li><span>2018</span><br>12”th from CBSE Board with aggregate 55%</li>
+                            <li><span>2015</span><br>10”th from CBSE Board with aggregate 7.4 CGPA </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>web design</h2>
+                    <p>Web design encompasses creating visually appealing, user-friendly layouts for websites, focusing on aesthetics, functionality, and user experience to engage and inform visitors effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development </h2>
+                    <p>Web development involves building and maintaining websites, including front-end (user interface) and back-end (server-side) programming, to ensure functionality, interactivity, and seamless user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="img/port.jpg" alt="" height="352px">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Showcase of my work, skills, and accomplishments as a professional.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/land.jpg" alt="" height="352px">
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>Single web page for highlighting a specific offer, product, or information with a clear call-to-action.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work 1.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Tool for performing mathematical calculations and solving numerical problems.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Vtarun985@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7838414130</p>
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="img/Tarun_Verma_Resume (2).pdf" download class="button">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                        <button class="button2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    <div class="copyright">
+        <p>&copy; Tarun Verma. </p>
+    </div>
+    
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+
+ <script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+ </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzRYbtj9TRWnSjQX9VrInondysDAAXxUoeipMOTAjGQf2NeBy09bcdRJUuD3cUaAYbNYg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset() 
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
